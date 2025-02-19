@@ -18,12 +18,15 @@ We utilized an SVM model with the process below,
 ## Pre-Process
 1. Implemented an improved otsu thresholding using a weighted scheme by by Hui-Fuang Ng, Cheng-Wai Kheng and Jim-Min Lin in 2015
 2. Applied color-based segmentation using HSV classification on top of the otsu
+   
 ## Feature Extraction
-1. Extracted the color moments and the shannon entropy of the images (highlighting the differences between fire and non-fire images)
+1. Extracted the color moments and the shannon entropy of the images (highlighting the differences between fire and non-fire images
+   
 ## Modelling
 1. Split the dataset into 80:20 for training and testing
 2. Used an SVM Classifier model with only the 'linear' kernel as parameter
 3. Did not utilize any hyperparameter tuning
+   
 ## Evaluation and Results
 1. Achieved 97% F1 Accuracy on average with 98% on fire and 94% on non-fire (training and testing)
 2. Achieved 96% of mean cross validation score (used 5 folds)
