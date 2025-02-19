@@ -10,8 +10,8 @@ This was a project for the Digital Image Processing course, focuing on the detec
    
 ## Dataset
 These were dataset used on this project,
-Training [1000 images]: NASA Space Apps Challenge Fire Dataset [https://www.kaggle.com/datasets/phylake1337/fire-dataset]
-Testing [380 images]: A. Khan and B. Hassan, "Dataset for Forest Fire Detection," Version 1 [https://doi.org/10.17632/gjmr63rz2r.1]
+- Training [1000 images]: NASA Space Apps Challenge Fire Dataset [https://www.kaggle.com/datasets/phylake1337/fire-dataset]
+- Testing [380 images]: A. Khan and B. Hassan, "Dataset for Forest Fire Detection," Version 1 [https://doi.org/10.17632/gjmr63rz2r.1]
 
 We utilized an SVM model with the process below,
 
